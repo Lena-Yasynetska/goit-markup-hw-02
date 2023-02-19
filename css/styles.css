@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+p {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1 {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    }
+h3 {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+/* Шапка стр. */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.web{
+    color: #4D5AE5;
+}
+.menu:hover,
+.menu:focus {
+    color: #4D5AE5;
+}
+.address{
+    color: #4D5AE5;
+}
+/* Герой */
+.hero {
+    background-color:  #2E2F42;
+}
+.service {
+background-color: #4D5AE5;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+/* Приоритеты */
+/* наши работы */
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+/* Команда */
+.team {
+background-color: #F4F4FD;
+}
+/* Подвал стр. */
+footer{
+  background-color: #2E2F42;
+} 
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #F4F4FD;
+}
+  .footer { 
+  color: #E7E9FC; 
+}
+/* Кнопки */
+.button-job:hover,
+.button-job:focus {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+/* Наши работы */
