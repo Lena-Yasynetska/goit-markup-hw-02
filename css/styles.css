@@ -8,7 +8,6 @@ ul {
 }
 p {
     color: #434455;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -39,12 +38,20 @@ h3 {
 .web{
     color: #4D5AE5;
 }
-.menu:hover,
-.menu:focus {
-    color: #4D5AE5;
+.menu-job {
+    color: #2E2F42;
 }
-.address{
+.menu-job:hover {
+    color: #404BBF;
+}
+/* .menu:focus {
     color: #4D5AE5;
+} */
+.adress-menu {
+    color: #434455;
+}
+.adress-menu:hover {
+    color: #404BBF;
 }
 /* Герой */
 .hero {
@@ -58,6 +65,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 }
+.service:hover {
+    background-color: #404BBF;
+}
+/* .service:focus {
+    background-color: #404BBF;
+    color: #000000;
+} */
 /* Приоритеты */
 /* наши работы */
 h2 {
@@ -87,9 +101,12 @@ footer{
   color: #E7E9FC; 
 }
 /* Кнопки */
-.button-job:hover,
-.button-job:focus {
+.button-job:hover {
     background-color: #4D5AE5;
+}
+.button-job:focus {
+    background-color: #404BBF;
     color: #ffffff;
 }
 /* Наши работы */
+
