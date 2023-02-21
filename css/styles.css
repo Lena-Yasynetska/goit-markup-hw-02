@@ -1,17 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    cursor: pointer;
+    letter-spacing: 0.02em;
 }
 ul {
     list-style: none;
 }
-p {
+/* p {
     color: #434455;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-}
+} */
 h1 {
     color: #ffffff;
     font-style: normal;
@@ -19,13 +18,16 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     }
-h3 {
+/* .h-strategy,
+.punctuality,
+.diligence,
+.technologies {
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-}
+} */
 /* Шапка стр. */
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -33,21 +35,37 @@ h3 {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     color: #2E2F42;
 }
 .web{
     color: #4D5AE5;
 }
 .menu-job {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     color: #2E2F42;
 }
 .menu-job:hover {
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; */
     color: #404BBF;
 }
 /* .menu:focus {
     color: #4D5AE5;
 } */
 .adress-menu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     color: #434455;
 }
 .adress-menu:hover {
@@ -58,12 +76,14 @@ h3 {
     background-color:  #2E2F42;
 }
 .service {
-background-color: #4D5AE5;
-color: #FFFFFF;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .service:hover {
     background-color: #404BBF;
@@ -73,8 +93,26 @@ line-height: 1.5;
     color: #000000;
 } */
 /* Приоритеты */
+.h-strategy,
+.punctuality,
+.diligence,
+.technologies {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.our-strategy,
+.strategy-punctuality,
+.strategy-diligence,
+.strategy-technologies {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
 /* наши работы */
-h2 {
+.our-job {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -82,12 +120,65 @@ h2 {
     text-align: center;
 }
 /* Команда */
-.team {
-background-color: #F4F4FD;
+.our-team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    background-color: #F4F4FD;
+   }
+.team-mark,
+.team-tom,
+.team-camila,
+.team-daniel {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.banking,
+.cashless,
+.meditaion,
+.taxi,
+.illustrations,
+.online-ourses,
+.instagram,
+.organic,
+.coffee {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;   
+}
+.team-produkt,
+.team-developer,
+.team-camila,
+.team-ui
+{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.app,
+.marketing,
+.meditaion-app,
+.taxi-marketing,
+.design,
+.online-marketing,
+.design,
+.web-site,
+.fresh-coffee
+{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
 }
 /* Подвал стр. */
 footer{
-  background-color: #2E2F42;
+    background-color: #2E2F42;
 } 
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -97,14 +188,29 @@ footer{
     line-height: 1.2;
     color: #F4F4FD;
 }
-  .footer { 
-  color: #E7E9FC; 
+.footer { 
+    color: #E7E9FC; 
 }
 /* Кнопки */
-.button-job:hover {
-    background-color: #4D5AE5;
+.button-job {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
 }
+.button-job:hover, 
 .button-job:focus {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #404BBF;
     color: #ffffff;
 }
