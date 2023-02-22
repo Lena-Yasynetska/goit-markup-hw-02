@@ -93,31 +93,33 @@ h1 {
     color: #000000;
 } */
 /* Приоритеты */
-.h-strategy,
-.punctuality,
-.diligence,
-.technologies {
+.h-strategy{
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
-.our-strategy,
-.strategy-punctuality,
-.strategy-diligence,
-.strategy-technologies {
+.our-strategy{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 /* наши работы */
-.our-job {
+ .our-job {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
+} 
+.job-our{
+    background: #FFFFFF;  
+    border: 1px solid #E7E9FC;
 }
 /* Команда */
 .our-team {
@@ -126,52 +128,28 @@ h1 {
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
+}
+.team-our{
     background-color: #F4F4FD;
-   }
-.team-mark,
-.team-tom,
-.team-camila,
-.team-daniel {
+} 
+.produkt {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.team,
+.job {
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
-.banking,
-.cashless,
-.meditaion,
-.taxi,
-.illustrations,
-.online-ourses,
-.instagram,
-.organic,
-.coffee {
-    color: #2E2F42;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;   
-}
 .team-produkt,
-.team-developer,
-.team-camila,
-.team-ui
-{
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-}
-.app,
-.marketing,
-.meditaion-app,
-.taxi-marketing,
-.design,
-.online-marketing,
-.design,
-.web-site,
-.fresh-coffee
-{
+.app{
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -180,7 +158,7 @@ h1 {
 footer{
     background-color: #2E2F42;
 } 
-.logo-footer {
+.logo-footer{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -193,6 +171,7 @@ footer{
 }
 /* Кнопки */
 .button-job {
+    cursor: pointer;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
